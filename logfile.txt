@@ -1,0 +1,32 @@
+2025-09-15T09:00:00.123Z INFO  sensor_id=OT_TEMP01 location=boiler_room reading=212.4 unit=F status=OK
+2025-09-15T09:00:05.456Z INFO  sensor_id=OT_PRESS01 location=steam_header reading=150.3 unit=psi status=OK
+2025-09-15T09:00:10.789Z INFO  sensor_id=OT_FLOW01 location=feed_pump reading=1250.0 unit=L/min status=OK
+2025-09-15T09:00:15.012Z WARN  sensor_id=OT_TEMP01 location=boiler_room reading=234.9 unit=F status=HIGH_TEMP threshold=220.0
+2025-09-15T09:00:20.345Z ERROR sensor_id=OT_PRESS01 location=steam_header code=E_SENSOR_FAULT msg="Analog input out of range" reading=9999.0 unit=psi
+2025-09-15T09:00:25.678Z INFO  sensor_id=OT_LEVEL01 location=condensate_tank reading=3.45 unit=m status=OK
+2025-09-15T09:00:30.901Z INFO  sensor_id=OT_FLOW01 location=feed_pump reading=1248.6 unit=L/min status=OK
+2025-09-15T09:00:35.234Z ERROR sensor_id=OT_COMM01 location=network_segment code=E_TIMEOUT msg="Modbus TCP timeout" retry=2
+2025-09-15T09:00:40.567Z WARN  sensor_id=OT_LEVEL01 location=condensate_tank reading=0.15 unit=m status=LOW_LEVEL threshold=0.2
+2025-09-15T09:00:45.890Z INFO  sensor_id=OT_TEMP02 location=superheater reading=842.1 unit=F status=OK
+2025-09-15T09:00:51.123Z ERROR sensor_id=OT_VALVE01 location=main_supply code=E_ACTUATOR_FAIL msg="Valve did not reach commanded position" command=OPEN position=12% expected=100% retry=1
+2025-09-15T09:00:56.456Z INFO  sensor_id=OT_PRESS01 location=steam_header reading=149.8 unit=psi status=OK
+2025-09-15T09:01:01.789Z INFO  sensor_id=OT_FLOW02 location=deaerator reading=560.2 unit=L/min status=OK
+2025-09-15T09:01:07.012Z WARN  sensor_id=OT_TEMP01 location=boiler_room reading=221.7 unit=F status=HIGH_TEMP threshold=220.0
+2025-09-15T09:01:12.345Z ERROR sensor_id=OT_SENSORX location=unknown code=E_CALIBRATION msg="Calibration data missing" retry=0
+2025-09-15T09:01:17.678Z INFO  sensor_id=OT_LEVEL01 location=condensate_tank reading=0.95 unit=m status=OK
+2025-09-15T09:01:23.901Z INFO  sensor_id=OT_FLOW01 location=feed_pump reading=1251.3 unit=L/min status=OK
+2025-09-15T09:01:29.234Z ERROR sensor_id=OT_TEMP02 location=superheater code=E_OVERHEAT msg="Sensor exceeded measurement range" reading=9999.0 unit=F threshold=1000.0
+2025-09-15T09:01:34.567Z WARN  sensor_id=OT_COMM01 location=network_segment reading=0.00 unit=ms status=DEGRADED msg="Intermittent packet loss detected"
+2025-09-15T09:01:39.890Z INFO  sensor_id=OT_PRESS01 location=steam_header reading=150.0 unit=psi status=OK
+2025-09-15T09:01:45.123Z ERROR sensor_id=OT_PWR01 location=substation code=E_BROWNOUT msg="Voltage drop below threshold" voltage=188.2 unit=V threshold=200.0
+2025-09-15T09:01:50.456Z INFO  sensor_id=OT_TEMP01 location=boiler_room reading=218.9 unit=F status=OK
+2025-09-15T09:01:55.789Z INFO  sensor_id=OT_FLOW02 location=deaerator reading=558.9 unit=L/min status=OK
+2025-09-15T09:02:01.012Z WARN  sensor_id=OT_LEVEL01 location=condensate_tank reading=0.18 unit=m status=LOW_LEVEL threshold=0.2
+2025-09-15T09:02:06.345Z ERROR sensor_id=OT_COMM01 location=network_segment code=E_AUTH_FAIL msg="PLC authentication failed" retry=0
+2025-09-15T09:02:11.678Z INFO  sensor_id=OT_VALVE02 location=bypass_line reading=OPEN position=100% status=OK
+2025-09-15T09:02:17.901Z INFO  sensor_id=OT_TEMP02 location=superheater reading=845.6 unit=F status=OK
+2025-09-15T09:02:23.234Z ERROR sensor_id=OT_FLOW01 location=feed_pump code=E_SENSOR_DRIFT msg="Flow calibration drift" reading=1300.7 unit=L/min drift=4.2%
+2025-09-15T09:02:28.567Z INFO  sensor_id=OT_PRESS01 location=steam_header reading=149.6 unit=psi status=OK
+2025-09-15T09:02:33.890Z WARN  sensor_id=OT_TEMP01 location=boiler_room reading=222.4 unit=F status=HIGH_TEMP threshold=220.0
+2025-09-15T09:02:39.123Z INFO  sensor_id=OT_LEVEL01 location=condensate_tank reading=0.50 unit=m status=OK
+2025-09-15T09:02:44.456Z ERROR sensor_id=OT_STORAGE location=control_room code=E_DISK_FULL msg="Log partition at 100% usage" usage=100% threshold=90%
